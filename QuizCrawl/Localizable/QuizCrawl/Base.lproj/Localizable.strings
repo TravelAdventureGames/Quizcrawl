@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  QuizCrawl
+
+  Created by Martijn van Gogh on 09-03-18.
+  Copyright © 2018 Martijn van Gogh. All rights reserved.
+*/
+
+//City quotes
+
+"amsterdamQuote" = "Amsterdam is prachtig";
+"berlinQuote" = "Berlin is prachtig";
+"utrechtQuote" = "Utrecht is prachtig";
+"rotterdamQuote" = "Rotterdam is prachtig";
+
