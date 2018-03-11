@@ -1,20 +1,14 @@
 //
-//  CityCell.swift
+//  RotesCell.swift
 //  QuizCrawl
 //
-//  Created by Martijn van Gogh on 09-03-18.
+//  Created by Martijn van Gogh on 10-03-18.
 //  Copyright © 2018 Martijn van Gogh. All rights reserved.
 //
 
 import UIKit
 
-class CityCell: UITableViewCell {
-
-    @IBOutlet var cityNameLabel: UILabel!
-    @IBOutlet var distanceLabel: UILabel!
-    @IBOutlet var cityImageview: UIImageView!
-    
-
+class RotesCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

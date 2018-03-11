@@ -1,66 +1,60 @@
 //
-//  CitiesTableViewController.swift
+//  RoutesTableViewController.swift
 //  QuizCrawl
 //
-//  Created by Martijn van Gogh on 09-03-18.
+//  Created by Martijn van Gogh on 10-03-18.
 //  Copyright © 2018 Martijn van Gogh. All rights reserved.
 //
 
 import UIKit
-import CoreLocation
 
-class CitiesTableViewController: UITableViewController, CLLocationManagerDelegate {
+class RoutesTableViewController: UITableViewController {
 
-    var locationManager: CLLocationManager = CLLocationManager()
-    var cities: [City] = []
+    var routes: [Route] = []
+    var selectedCity: City!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setUpLocationManager()
+        setupUI()
     }
 
-    private func setUpLocationManager() {
-        locationManager = CLLocationManager()
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.delegate = self
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.startUpdatingLocation()
-    }
-
-    private func loadCities(currentLoaction: CLLocation) {
-        let helper = CityHelper()
-        cities = helper.getAllCities()
-        cities.sort(by: { $0.distance(to: currentLoaction) < $1.distance(to: currentLoaction) })
-        for city in cities {
-           
-        }
+    private func setupUI() {
+        tableView.separatorStyle = .none
     }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return cities.count
+        return routes.count + 1
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cityCell", for: indexPath) as! CityCell
-        let city = cities[indexPath.row]
-        cell.cityNameLabel.text = city.cityName
-        cell.cityImageview.image = city.image
-        return cell
+
+        switch indexPath.row {
+        case 0:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "routesGeneralCell", for: indexPath) as! RoutesGeneralCell
+            cell.configure(city: selectedCity!)
+            return cell
+        default:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "routesCell", for: indexPath) as! RotesCell
+            return cell
+        }
     }
 
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        guard let lastLocation = locations.last else { return }
-        locationManager.stopUpdatingLocation()
-        loadCities(currentLoaction: lastLocation)
-    }
 
+
+
+    /*
+    // Override to support conditional editing of the table view.
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        // Return false if you do not want the specified item to be editable.
+        return true
+    }
+    */
 
     /*
     // Override to support editing the table view.
