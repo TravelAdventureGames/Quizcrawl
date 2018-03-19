@@ -120,7 +120,8 @@ class CitiesTableViewController: UITableViewController, CLLocationManagerDelegat
         if segue.identifier == "toRoutesSegue" {
             let destination = segue.destination as? RoutesTableViewController
             guard let index = tableView.indexPathForSelectedRow?.row else { return }
-            destination?.selectedCity = cities[index]
+            let adjustedIndex = adjustedIndexpath(atIndex: index)
+            destination?.selectedCity = cities[adjustedIndex]
         }
     }
 }

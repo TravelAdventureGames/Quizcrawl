@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum PlaceID {
+enum PlaceManager {
     //De bieren van Amsterdam
     case AMSR1L1  //Het IJ
     case AMSR1L2  //De prael

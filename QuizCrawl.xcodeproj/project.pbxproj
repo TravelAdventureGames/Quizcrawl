@@ -23,6 +23,7 @@
 		68654FE920540F76004DF6BD /* UIcolor+projectcolors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68654FE820540F76004DF6BD /* UIcolor+projectcolors.swift */; };
 		68654FEB205586FE004DF6BD /* UIfont+size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68654FEA205586FE004DF6BD /* UIfont+size.swift */; };
 		68654FED205595D9004DF6BD /* SeparatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68654FEC205595D9004DF6BD /* SeparatorTableViewCell.swift */; };
+		68654FEF2055B786004DF6BD /* Routehelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68654FEE2055B786004DF6BD /* Routehelper.swift */; };
 		68786107205276DA00937D8F /* PlaceIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68786106205276DA00937D8F /* PlaceIDs.swift */; };
 		687861092052928500937D8F /* CityIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687861082052928500937D8F /* CityIDs.swift */; };
 		6878610C20529A2400937D8F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6878610A20529A2400937D8F /* Localizable.strings */; };
@@ -57,6 +58,7 @@
 		68654FE820540F76004DF6BD /* UIcolor+projectcolors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor+projectcolors.swift"; sourceTree = "<group>"; };
 		68654FEA205586FE004DF6BD /* UIfont+size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIfont+size.swift"; sourceTree = "<group>"; };
 		68654FEC205595D9004DF6BD /* SeparatorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorTableViewCell.swift; sourceTree = "<group>"; };
+		68654FEE2055B786004DF6BD /* Routehelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routehelper.swift; sourceTree = "<group>"; };
 		68786106205276DA00937D8F /* PlaceIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceIDs.swift; sourceTree = "<group>"; };
 		687861082052928500937D8F /* CityIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityIDs.swift; sourceTree = "<group>"; };
 		6878610B20529A2400937D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = QuizCrawl/Base.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				68A745212052BB5100C97A9E /* CityHelper.swift */,
+				68654FEE2055B786004DF6BD /* Routehelper.swift */,
 			);
 			path = helpers;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				68654FED205595D9004DF6BD /* SeparatorTableViewCell.swift in Sources */,
 				68654FE720540A42004DF6BD /* RotesCell.swift in Sources */,
 				68654FE920540F76004DF6BD /* UIcolor+projectcolors.swift in Sources */,
+				68654FEF2055B786004DF6BD /* Routehelper.swift in Sources */,
 				6878611420529D2A00937D8F /* string+localized.swift in Sources */,
 				6878611B2052B8DC00937D8F /* Credits.swift in Sources */,
 				68654FE520540A29004DF6BD /* RoutesGeneralCell.swift in Sources */,

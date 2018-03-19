@@ -23,3 +23,9 @@ struct LocationDetails {
     let coordinate: CLLocationCoordinate2D
     let place_id: String?
 }
+
+class LocationHelper {
+//    func getLocationForPLaceId(placeId: String) -> Location {
+//        
+//    }
+}

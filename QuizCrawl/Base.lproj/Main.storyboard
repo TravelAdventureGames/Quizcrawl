@@ -162,11 +162,11 @@
                                     <outlet property="routeHeader" destination="hzW-Vc-xRa" id="dJ0-jh-TEt"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="routesCell" id="Pls-lo-xJW" customClass="RotesCell" customModule="QuizCrawl" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="344" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="routesCell" rowHeight="259" id="Pls-lo-xJW" customClass="RotesCell" customModule="QuizCrawl" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="344" width="375" height="259"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Pls-lo-xJW" id="N8K-23-m6S">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="258.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -179,7 +179,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EKN-2n-rKB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1297" y="45"/>
+            <point key="canvasLocation" x="1335.2" y="-440.32983508245883"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7Rz-3X-clv">

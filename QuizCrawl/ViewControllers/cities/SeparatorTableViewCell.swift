@@ -22,5 +22,6 @@ class SeparatorTableViewCell: UITableViewCell {
 
     private func setUp() {
         self.backgroundColor = .clear
+        self.isUserInteractionEnabled = false
     }
 }
