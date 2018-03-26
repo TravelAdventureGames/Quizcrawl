@@ -14,12 +14,13 @@ extension UIColor {
         return .black
     }
 
+    //blue
     static func secondaryTextColor() -> UIColor {
         return UIColor(red: 0/255, green: 82/255, blue: 159/255, alpha: 1)
     }
-
+    //red
     static func titleTextColor() -> UIColor {
-        return UIColor(red: 0/255, green: 82/255, blue: 159/255, alpha: 1)
+        return UIColor(red: 160.0/255.0, green: 67.0/255.0, blue: 61.0/255.0, alpha: 1.0)
     }
 
     static func subTitleTextColor() -> UIColor {
@@ -38,7 +39,8 @@ extension UIColor {
         return .white
     }
 
+    //blue
     static func secondaryBackgroundColor() -> UIColor {
-        return .white
+        return UIColor(red: 99.0/255.0, green: 221.0/255.0, blue: 222.0/255.0, alpha: 1)
     }
 }

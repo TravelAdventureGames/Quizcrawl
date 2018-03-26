@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6825D36220693D3000B1FAC9 /* Quizhelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6825D36120693D3000B1FAC9 /* Quizhelper.swift */; };
+		6825D36520694B4300B1FAC9 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6825D36420694B4300B1FAC9 /* QuizViewController.swift */; };
+		6825D36720694BD400B1FAC9 /* UIView+slideinFromLeftRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6825D36620694BD400B1FAC9 /* UIView+slideinFromLeftRight.swift */; };
+		6825D369206993E700B1FAC9 /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6825D368206993E700B1FAC9 /* RoundedLabel.swift */; };
 		685408E9203DD1B700390D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685408E8203DD1B700390D17 /* AppDelegate.swift */; };
 		685408EE203DD1B800390D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685408EC203DD1B800390D17 /* Main.storyboard */; };
 		685408F0203DD1B800390D17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685408EF203DD1B800390D17 /* Assets.xcassets */; };
@@ -42,6 +45,9 @@
 /* Begin PBXFileReference section */
 		1ADC9C17E18A777D735C88EC /* Pods-QuizCrawl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizCrawl.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuizCrawl/Pods-QuizCrawl.release.xcconfig"; sourceTree = "<group>"; };
 		6825D36120693D3000B1FAC9 /* Quizhelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quizhelper.swift; sourceTree = "<group>"; };
+		6825D36420694B4300B1FAC9 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		6825D36620694BD400B1FAC9 /* UIView+slideinFromLeftRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+slideinFromLeftRight.swift"; sourceTree = "<group>"; };
+		6825D368206993E700B1FAC9 /* RoundedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
 		685408E5203DD1B700390D17 /* QuizCrawl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizCrawl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		685408E8203DD1B700390D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		685408ED203DD1B800390D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +100,14 @@
 				C0948BDD6F3268750DEBB99E /* Pods_QuizCrawl.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6825D36320694B1A00B1FAC9 /* Quizes */ = {
+			isa = PBXGroup;
+			children = (
+				6825D36420694B4300B1FAC9 /* QuizViewController.swift */,
+			);
+			path = Quizes;
 			sourceTree = "<group>";
 		};
 		685408DC203DD1B700390D17 = {
@@ -156,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				6878611720529E8900937D8F /* GradientImageview.swift */,
+				6825D368206993E700B1FAC9 /* RoundedLabel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +178,7 @@
 		685408FE203DD20B00390D17 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6825D36320694B1A00B1FAC9 /* Quizes */,
 				68654FE020540977004DF6BD /* cities */,
 				68654FE120540984004DF6BD /* routes */,
 			);
@@ -176,6 +192,7 @@
 				6878611520529DB500937D8F /* UIView+circel.swift */,
 				68654FE820540F76004DF6BD /* UIcolor+projectcolors.swift */,
 				68654FEA205586FE004DF6BD /* UIfont+size.swift */,
+				6825D36620694BD400B1FAC9 /* UIView+slideinFromLeftRight.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -384,6 +401,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				68786107205276DA00937D8F /* PlaceIDs.swift in Sources */,
+				6825D36520694B4300B1FAC9 /* QuizViewController.swift in Sources */,
+				6825D369206993E700B1FAC9 /* RoundedLabel.swift in Sources */,
 				68A745242052C41A00C97A9E /* CitiesTableViewController.swift in Sources */,
 				68654FE3205409B4004DF6BD /* RoutesTableViewController.swift in Sources */,
 				68A745222052BB5100C97A9E /* CityHelper.swift in Sources */,
@@ -401,6 +420,7 @@
 				68540901203DD23B00390D17 /* Quiz.swift in Sources */,
 				68654FED205595D9004DF6BD /* SeparatorTableViewCell.swift in Sources */,
 				68654FE720540A42004DF6BD /* RotesCell.swift in Sources */,
+				6825D36720694BD400B1FAC9 /* UIView+slideinFromLeftRight.swift in Sources */,
 				68654FE920540F76004DF6BD /* UIcolor+projectcolors.swift in Sources */,
 				68654FEF2055B786004DF6BD /* Routehelper.swift in Sources */,
 				6878611420529D2A00937D8F /* string+localized.swift in Sources */,

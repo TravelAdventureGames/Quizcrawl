@@ -32,8 +32,8 @@
 "QuizSport1Q11" = "Welke niet bij iedereen geliefde voetbalcommentator heeft als bijnaam 'De witte Chinees'?";
 "QuizSport1Q12" = "Christiano Ronaldo of Leo Messi? De vraag wie je beter vindt, is arbitrair, hoewel de voorkeur van de schrijver van deze vraag ten zeerste uitgaat naar de kleine baltovenaar van Barcelona. Als we kijken naar het aantal keer dat ze de Champions League (CL) hebben gewonnen, wint Messi. Vraag: Hoe vaak hebben Messi en Ronaldo bij elkaar opgeteld de CL gewonnen (peildatum 7 juni 2016)?";
 "QuizSport1Q13" = "Dafne Schippers stopte er na lang wikken en wegen mee, maar de zevenkamp blijft een prachtig onderdeel van de atletiek. De zevenkamp (outdoor dames) bestaat uit de onderdelen  verspringen, hoogspringen, 100 meter horden, speerwerpen, kogelstoten, 800 meter en .......?";
-"QuizSport1Q4" = "Ze hadden er zo lang voor getraind, maar uiteindelijk deed de Nederlandse viermansbob ondanks dat ze zich wel hadden gekwalificeerd, niet mee aan de Olympische Spelen van Vancouver. Reden; de stuurman durfde op de gevaarlijke afdaling niet meer naar beneden. Hoe heette deze stuurman?";
-"QuizSport1Q5" = "Gerrie Knetemann was zeker één van de meest excentrieke wielrenners van Nederland. Hij was echter ook één van de beste! Zo won hij onder andere 10 etappes in de Tour, de Amstel Gold Race en werd hij Wereldkampioen op de weg. Zijn dood op 2 november 2004 kreeg echter niet de aandacht die het verdiende. Op die dag beheerste namelijk de dood van een andere Nederlander het nieuws. Wie overleed op die dag ook?";
+"QuizSport1Q14" = "Ze hadden er zo lang voor getraind, maar uiteindelijk deed de Nederlandse viermansbob ondanks dat ze zich wel hadden gekwalificeerd, niet mee aan de Olympische Spelen van Vancouver. Reden; de stuurman durfde op de gevaarlijke afdaling niet meer naar beneden. Hoe heette deze stuurman?";
+"QuizSport1Q15" = "Gerrie Knetemann was zeker één van de meest excentrieke wielrenners van Nederland. Hij was echter ook één van de beste! Zo won hij onder andere 10 etappes in de Tour, de Amstel Gold Race en werd hij Wereldkampioen op de weg. Zijn dood op 2 november 2004 kreeg echter niet de aandacht die het verdiende. Op die dag beheerste namelijk de dood van een andere Nederlander het nieuws. Wie overleed op die dag ook?";
 "tussenzin1" = "En hiermee is een einde gekomen aan ronde 1! Beginnen jullie al een beetje op stoom te komen? Ga dan snel verder naar locatie 2.";
 
 "QuizSport1A1" = "De echte voornaam van Marco van Basten is Marcel. Behalve door zijn oma, werd hij echter nooit zo genoemd.";
@@ -153,7 +153,7 @@
 "QuizSport1A60" = "Dorian van Rijsselberghe won de tweede gouden windsufmedaille voor Nederland";
 
 // Triva quiz 1
-"QuizTrivia1Name" = "Allesweters"
+"QuizTrivia1Name" = "Allesweters";
 "QuizTrivia1Q1" = "Quentin Tarantino maakte in 2009 Inglourious Bastards. In deze blockbuster speelt een in Wenen geboren acteur een glansrol als extreem creepy nazi-kolonel Hans Landa. Hoe heet hij?";
 "QuizTrivia1Q2" = "The Velvet Underground & Nico is het debuutalbum van de Amerikaanse experimentele rockband The Velvet Underground. De plaat wordt beschouwd als één van de belangrijkste albums aller tijden. Welke Amerikaanse kunstenaar produceerde deze LP en ontwierp tevens de albumcover met banaan?";
 "QuizTrivia1Q3" = "In 1870 trof een grote ramp de Europese wijngaarden. Een heel vervelend beestje dat was komen overwaaien uit Amerika, verwoeste complete oogsten door zich uitbundig tegoed te doen aan de wortels van de wijnrank. Welk beestje heeft al deze ellende veroorzaakt?";

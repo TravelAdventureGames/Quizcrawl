@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xh9-gJ-CC5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="x6I-GE-Nvl">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,6 +9,7 @@
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -176,10 +177,82 @@
                             <outlet property="delegate" destination="apv-a7-7XJ" id="FbJ-dE-lwv"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="x6I-GE-Nvl" kind="show" id="Hbb-9L-Fqe"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EKN-2n-rKB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1335.2" y="-440.32983508245883"/>
+            <point key="canvasLocation" x="1356" y="45"/>
+        </scene>
+        <!--Quiz View Controller-->
+        <scene sceneID="oHQ-bJ-rWw">
+            <objects>
+                <viewController id="x6I-GE-Nvl" customClass="QuizViewController" customModule="QuizCrawl" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="spl-3l-69b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlN-hG-OAp">
+                                <rect key="frame" x="20" y="254" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6nx-QF-N9e">
+                                <rect key="frame" x="131" y="84" width="112.5" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6nx-QF-N9e" secondAttribute="height" multiplier="3:4" id="pZ5-OG-RoV"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQ0-F2-IA0" customClass="RoundedLabel" customModule="QuizCrawl" customModuleProvider="target">
+                                <rect key="frame" x="299" y="44" width="56" height="56.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gQ0-F2-IA0" secondAttribute="height" multiplier="1:1" id="mjT-uU-mHk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="hlN-hG-OAp" firstAttribute="leading" secondItem="b8B-Ss-rae" secondAttribute="leading" constant="20" id="3b5-C9-8P3"/>
+                            <constraint firstItem="gQ0-F2-IA0" firstAttribute="width" secondItem="spl-3l-69b" secondAttribute="width" multiplier="0.15" id="5ng-Hk-VXh"/>
+                            <constraint firstItem="b8B-Ss-rae" firstAttribute="trailing" secondItem="hlN-hG-OAp" secondAttribute="trailing" constant="20" id="8UC-U6-nqu"/>
+                            <constraint firstItem="b8B-Ss-rae" firstAttribute="trailing" secondItem="gQ0-F2-IA0" secondAttribute="trailing" constant="20" id="Cgj-Mz-wYa"/>
+                            <constraint firstItem="6nx-QF-N9e" firstAttribute="top" secondItem="b8B-Ss-rae" secondAttribute="top" constant="20" id="Sno-0c-b8Q"/>
+                            <constraint firstItem="6nx-QF-N9e" firstAttribute="width" secondItem="spl-3l-69b" secondAttribute="width" multiplier="0.3" id="a3O-5H-u6x"/>
+                            <constraint firstItem="gQ0-F2-IA0" firstAttribute="top" secondItem="b8B-Ss-rae" secondAttribute="top" constant="-20" id="jZe-37-W0f"/>
+                            <constraint firstItem="6nx-QF-N9e" firstAttribute="centerX" secondItem="spl-3l-69b" secondAttribute="centerX" id="osl-EE-gMR"/>
+                            <constraint firstItem="hlN-hG-OAp" firstAttribute="top" secondItem="6nx-QF-N9e" secondAttribute="bottom" constant="20" id="qsk-6P-G7I"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="b8B-Ss-rae"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="jbv-uI-C8t" appends="YES" id="dQy-FP-cyG"/>
+                            <outletCollection property="gestureRecognizers" destination="k6z-uI-PB7" appends="YES" id="wRL-ly-FDN"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="6nx-QF-N9e" id="Jvo-N3-FSo"/>
+                        <outlet property="questionLabel" destination="hlN-hG-OAp" id="940-uT-8EN"/>
+                        <outlet property="questionNumberLabel" destination="gQ0-F2-IA0" id="Gjf-ei-fhc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OkC-6W-K8w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="jbv-uI-C8t">
+                    <connections>
+                        <action selector="performRightSwipe:" destination="x6I-GE-Nvl" id="PuD-7k-str"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="k6z-uI-PB7">
+                    <connections>
+                        <action selector="performLeftSwipe:" destination="x6I-GE-Nvl" id="U3P-N0-3iA"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2351" y="45"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7Rz-3X-clv">
