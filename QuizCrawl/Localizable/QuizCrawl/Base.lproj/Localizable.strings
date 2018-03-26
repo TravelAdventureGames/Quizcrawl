@@ -18,6 +18,7 @@
 "citiesTitle" = "Cities";
 
 //Sportquiz 1
+"QuizSport1Name" = "De echte sportfanaat";
 "QuizSport1Q1" = "Marco van Basten heet eigenlijk helemaal geen Marco. In 1964 werd de Utrechtenaar geboren onder een heel andere naam. Marco's oma had echter (om onbegrijpelijke redenen) moeite met het uitspreken ervan en noemde hem daarom Marco. Hoe heet Marco van Basten eigenlijk?";
 "QuizSport1Q2" = "Epke Zonderland is met afstand de beste Nederlandse turner aller tijden. Wie herinnert zich niet het euforische 'Hij staat!' van commentator Hans van Zetten bij zijn gouden oefening op de Olympische Spelen in Londen! ‘Us Epke’ voerde als daar als eerste turner drie vluchtelementen achter elkaar uit. De Cassina, de Kovacs en.....  Wat was het derde vluchtlement?";
 "QuizSport1Q3" = "Één van de historische wedstrijden in het vaderlandse voetbal is Nederland - Uruguay op het WK 2010 in Zuid-Afrika. Nederland won na een zenuwslopende slotfase met 3-2 en bereikte zo de finale van het WK. Sneijder en Robben maakte beiden een doelpunt, maar wie scoorde ook alweer de andere Nederlandse treffer?";
@@ -152,6 +153,7 @@
 "QuizSport1A60" = "Dorian van Rijsselberghe won de tweede gouden windsufmedaille voor Nederland";
 
 // Triva quiz 1
+"QuizTrivia1Name" = "Allesweters"
 "QuizTrivia1Q1" = "Quentin Tarantino maakte in 2009 Inglourious Bastards. In deze blockbuster speelt een in Wenen geboren acteur een glansrol als extreem creepy nazi-kolonel Hans Landa. Hoe heet hij?";
 "QuizTrivia1Q2" = "The Velvet Underground & Nico is het debuutalbum van de Amerikaanse experimentele rockband The Velvet Underground. De plaat wordt beschouwd als één van de belangrijkste albums aller tijden. Welke Amerikaanse kunstenaar produceerde deze LP en ontwierp tevens de albumcover met banaan?";
 "QuizTrivia1Q3" = "In 1870 trof een grote ramp de Europese wijngaarden. Een heel vervelend beestje dat was komen overwaaien uit Amerika, verwoeste complete oogsten door zich uitbundig tegoed te doen aan de wortels van de wijnrank. Welk beestje heeft al deze ellende veroorzaakt?";
@@ -282,6 +284,7 @@
 
 // Voetbal quiz 1
 
+"QuizVoetbal1Name" = "Het edele voetbalspel";
 "QuizVoetbal1Q1" = "Vader en zoon Gudelj hebben beiden voor NAC gespeeld, maar nooit samen. Gudelj senior stopte in 2006 terwijl junior in 2009 op het hoogste niveau debuteerde. Feyenoord heeft ook een Oost-Europese vader-zoon in de gelederen gehad, maar ook zij speelden nooit samen in één elftal. Over wie hebben we het?";
 "QuizVoetbal1Q2" = "Het ligt gevoelig, heel gevoelig. Een overstap van Ajax naar Feyenoord of omgekeerd. Zelfs Johan Cruijff himself verruilde het Amsterdamse voor het Rotterdamse. In de historie is er echter één speler die eerst van Ajax naar Feyenoord ging, om vervolgens in 1964 weer op het oude nest terug te keren. Welke speler maakte de overstap twee keer?";
 "QuizVoetbal1Q3" = "Er zijn zes spelers die ooit voor zowel Feyenoord als Ajax in de onderlinge klassieker hebben gescoord. Voor een half punt per goede naam; wie waren dit?";
@@ -414,6 +417,7 @@
 "QuizVoetbal1A60" = "Clarence Seedorf en Jaap Stam deden mee aan de kant van Milan";
 
 //Film quiz
+"Quizfilm1Name" = "Filmgek";
 "Quizfilm1Q1" = "James Bond  en de 'bad guy'; de één kan niet zonder de ander. In de loop der jaren nam James het onder andere al op tegen Dr. No, Jaws en in de meest recente Bond-film is Ernst Stravo Blofeld zijn tegenstander.\n\nWelke acteur speelt de rol van Blofeld?";
 "Quizfilm1Q2" = "Welke Nederlandse acteur en actrice maken furore in de hitserie Game of Thrones van HBO?";
 "Quizfilm1Q3" = "Een dag voor de Oscaruitreiking, worden ook de prijzen uitgedeeld voor de grootste wanprestaties in filmland. In 1996 was Paul Verhoeven één van de eersten die de prijs ook daadwerkelijk in ontvangst kwam nemen voor zijn regie van Showgirls.\n\nHoe heet deze tegenhanger van de Oscars?";
